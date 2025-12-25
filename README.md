@@ -34,6 +34,28 @@ Dạng sóng testbench topmodule thiết kế sử dụng UART truyền nhận d
 Phóng to dạng sóng thời điểm AES xử lý:
 <img width="1101" height="501" alt="image (4)" src="https://github.com/user-attachments/assets/b5833411-420a-4290-8e6e-b51ec2a3bb2a" />
 
+Xác minh thiết kế với công cụ gỡ lỗi SignalTap, luồng thiết kế trong dự án này được thực hiện như sau:
+<img width="690" height="814" alt="image" src="https://github.com/user-attachments/assets/cc062eda-6ac3-490b-b0b7-35831b6fb00e" />
+
+Trong dự án này tôi thực hiện các điều kiện gỡ lỗi cơ bản, theo kiến thức và kinh nghiệm của bản thân:
+- kiểm tra độ trễ thực tế module AES có đảm bảo theo tính toán là 11clk?
+- kiểm tra tín hiệu aes_start có được kích hoạt? có tồn tại các trạng thái không xác định như X,Z?
+- kiểm tra xem máy trạng thái có hoạt động đúng theo thiết kế hay có các trạng thái nào khác không?
+- dữ liệu được máy trạng thái ghi lại trước mã hóa và sau khi được giải mã có chĩnh xác hay không?
+- dữ liệu được ghi vào vùng nhớ On-chip Memory có chính xác hay không?
+
+Tín hiệu độ trễ module AES quan sát được qua Signaltap:
+<img width="945" height="210" alt="image" src="https://github.com/user-attachments/assets/23030f29-91d7-4ef4-a23c-8aafda9f4cb3" />
+
+Dạng sóng ghi lại toàn bộ quá trình xử lý mã hóa một gói tin 128bit:
+<img width="945" height="172" alt="image" src="https://github.com/user-attachments/assets/55c7b76f-0519-47ec-93bd-b0958394391f" />
+
+Dạng sóng ghi lại quá trình mã hóa và ghi dữ liệu vào On-chip Memory:
+<img width="944" height="157" alt="image" src="https://github.com/user-attachments/assets/75cedc29-0cab-48f0-9e64-d8b35264f604" />
+
+Dạng sóng ghi lại quá trình giải mã ngược và ghi dữ liệu vào On-chip Memory:
+<img width="945" height="172" alt="image" src="https://github.com/user-attachments/assets/392e7e44-e0af-4aa7-b793-7b9b20f107d7" />
+
 
 
 https://ftp.intel.com/Public/Pub/fpgaup/pub/Intel_Material/18.1/Computer_Systems/DE1-SoC/DE1-SoC_Computer_NiosII.pdf
