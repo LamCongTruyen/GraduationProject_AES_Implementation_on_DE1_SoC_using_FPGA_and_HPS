@@ -14,7 +14,7 @@ Sơ đồ khối hệ thống gồm:
 - Hard Processor System (HPS): Dual-core ARM Cortex-A9 MPCore có tốc độ lên đến ~800MHz chạy hệ điều hành Linux được boot từ thẻ SD. Kết nối với các ngoại vi như Gigabit Ethernet, USB to UART.
 - FPGA: gồm 2 IP chính được hỗ trợ bởi công cụ Platform Designer: On-chip Memory, FIFO Avalon Memory Mapped và module AES được chúng tôi thiết kế.
 - Cầu giao tiếp AXI: được Platform Designer sinh ra tự động hỗ trợ tạo kết nối giữa phần HPS và FPGA.
-<img width="779" height="444" alt="image" src="https://github.com/user-attachments/assets/6151ffd2-ebcb-46f2-a6d8-6de926f2fdbd" />
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/6151ffd2-ebcb-46f2-a6d8-6de926f2fdbd" />
 
 
 Cấu hình Platform Designer (trước đây là Qsys):
@@ -25,7 +25,7 @@ Bằng việc tham khảo các Golden Hardware Reference Design trong thư mục
 Luồng thiết kế khi sử dụng công cụ Platform Designer:
 <img width="700" height="500" alt="image (8)" src="https://github.com/user-attachments/assets/94e58f41-e0f8-4f97-834c-ce51c34242bd" />
 Lưu đồ giải thuật chương trình C thực hiện giao tiếp giữa HPS và FPGA, các ô màu xanh dương là các lệnh thực thi trên HPS còn các ô màu xanh lục là các lệnh thực thi trên FPGA:
-<img width="909" height="909" alt="image (7)" src="https://github.com/user-attachments/assets/daa717a3-a311-46cc-96eb-4e9709357a34" />
+<img width="700" height="500" alt="image (7)" src="https://github.com/user-attachments/assets/daa717a3-a311-46cc-96eb-4e9709357a34" />
 
 Dòng SoCFPGA này cũng cho phép chạy một webserver bằng ngôn ngữ HTML nhưng vì tôi không thành thạo ngôn ngữ này nên đã chạy một server hết sức đơn giản bằng Python trên laptop Window sau đó gửi hình ảnh từ server tới HPS qua cổng Ethernet được kết nối trong mạng cục bộ. HPS nhận hình ảnh và xử lý bằng chương trình C chuyển hình ảnh thành các byte sau đó ánh xạ bộ nhớ tới các địa chỉ được khai báo ở đầu chương trình. Các địa chỉ này sinh ra trong quá trình Generate HDL trong Qsys nằm trong vùng bộ nhớ mặc định của FPGA được nhắc tới trong mục2:
 
