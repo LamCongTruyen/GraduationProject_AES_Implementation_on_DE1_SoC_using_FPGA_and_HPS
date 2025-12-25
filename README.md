@@ -34,7 +34,7 @@ Dạng sóng testbench topmodule thiết kế sử dụng UART truyền nhận d
 Phóng to dạng sóng thời điểm AES xử lý:
 <img width="1101" height="501" alt="image (4)" src="https://github.com/user-attachments/assets/b5833411-420a-4290-8e6e-b51ec2a3bb2a" />
 
-#Signal Tap Logic Analysis
+# Signal Tap Logic Analysis
 Để tăng cường độ tin cậy của dự án thì ngoài testbench nhóm có sử dụng thêm công cụ SignalTap gỡ lỗi với tín hiệu thực tế khi chạy trên CHIP 
 Dữ liệu sẽ được lưu vào RAM, luồng thiết kế trong dự án này được thực hiện như sau:
 <img width="690" height="814" alt="image" src="https://github.com/user-attachments/assets/cc062eda-6ac3-490b-b0b7-35831b6fb00e" />
