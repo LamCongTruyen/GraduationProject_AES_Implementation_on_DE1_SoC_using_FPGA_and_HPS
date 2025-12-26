@@ -103,5 +103,7 @@ https://youtu.be/U1j70yaQe4M
 https://www.youtube.com/watch?v=PYMLmPdxt6Y
 
 # XIN TRÂN TRỌNG CẢM ƠN
+Có bất cứ thắc mắc nào xin hãy liên hệ với email: lamcongtruyen.1607@gmail.com
+
 <img width="2048" height="1536" alt="c73f9e12-696f-4d17-9d3c-10ecbd3b3664 - Copy" src="https://github.com/user-attachments/assets/d40ed38d-05f8-43f2-b4d9-a095ffce5d4d" />
 
