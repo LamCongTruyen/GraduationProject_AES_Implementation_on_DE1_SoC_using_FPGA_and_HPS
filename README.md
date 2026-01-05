@@ -94,6 +94,7 @@ Ngược lại với hệ thống HPS-FPGA dùng Ethernet (socket TCP/IP), kết
 <img width="926" height="521" alt="image" src="https://github.com/user-attachments/assets/644e4eea-b73a-408d-b05f-684466566c9e" />
 
 # Bản Final báo cáo Tốt nghiệp Đại học: 
+Chi tiết bản báo được lưu trữ trong đường link sau:
 https://drive.google.com/file/d/1ngxJcHEp_deetAN-4ZRwzoEtzyoNM3FQ/view?usp=sharing
 # Slide thuyết trình:
 [https://drive.google.com/file/d/1ngxJcHEp_deetAN-4ZRwzoEtzyoNM3FQ/view?usp=sharing](https://docs.google.com/presentation/d/1kAmDOoQiXIUUN2V7DPALnQG5mdYeNxzn/edit?usp=sharing&ouid=109821258768301239272&rtpof=true&sd=true)
@@ -110,6 +111,8 @@ https://www.youtube.com/watch?v=PYMLmPdxt6Y
 Ban đầu nhóm sử dụng UART cho truyền, nhận dữ liệu AES điều này chỉ phù hợp cho kích thước dữ liệu nhỏ, sau khi được Thầy hướng dẫn đề xuất thay đổi để phù hợp với dữ liệu lớn như hình ảnh hoặc video thì việc thay đổi từ thiết kế thuần FPGA thành thiết kế hoàn chỉnh SoC điều này đem lại hiệu quả hơn trước rất nhiều.
 
 Điểm nổi bật của đề tài là việc xây dựng một hệ thống kết hợp giữa phần cứng và phần mềm, chúng liên kết với nhau tạo nên kết nối hiệu năng cao cho phép mở rộng tiềm năng phát triển. Đặc biệt nhóm đã tìm hiểu và áp dụng các công cụ xác minh thiết kế trong thực tế vào dự án của mình, từ đó tạo căn cứ cho sự chính xác, tính khả thi và tiềm năng ứng dụng thực tế của hệ thống. Điều này thể hiện tinh thần nghiên cứu, sự nỗ lực và sáng tạo kết hợp với việc phân bổ thời gian thực hiện hợp lý giữa hai thành viên. 
+
+Mục đích cuối cùng tôi muốn là dựa trên các công cụ được sử dụng trong dự án thì điều này thể hiện một phần nào đó mong muốn được học hỏi các kiến thức thực tế từ doanh nghiệp, tôi muốn doanh nghiệp khi đọc qua sẽ thấy được tinh thần nghiêm túc trong khi làm việc với bất kỳ dự án nào.
 
 Có bất cứ thắc mắc nào xin hãy liên hệ với email: lamcongtruyen.1607@gmail.com
 
