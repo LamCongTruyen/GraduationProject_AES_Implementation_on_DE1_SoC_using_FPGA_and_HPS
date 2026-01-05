@@ -100,9 +100,15 @@ Ngược lại với hệ thống HPS-FPGA dùng Ethernet (socket TCP/IP), kết
 # Video demo hệ thống
 https://youtu.be/U1j70yaQe4M
 # Video cho điểm hội đồng 3
+Đề tài đạt được kết quả như kỳ vọng tôi đặt ra, đề tài được ba Thầy trực tiếp phản biện đánh giá là đề tài xuất sắc nhất hội đồng. 
+Điểm số tổng kết được các Thầy chấm cuối cùng là: 9.2
+Video cho điểm: 
 https://www.youtube.com/watch?v=PYMLmPdxt6Y
 
 # XIN TRÂN TRỌNG CẢM ƠN
+Ban đầu nhóm sử dụng UART cho truyền, nhận dữ liệu AES điều này chỉ phù hợp cho kích thước dữ liệu nhỏ, sau khi được Thầy hướng dẫn đề xuất thay đổi để phù hợp với dữ liệu lớn như hình ảnh hoặc video thì việc thay đổi từ thiết kế thuần FPGA thành thiết kế hoàn chỉnh SoC điều này đem lại hiệu quả hơn trước rất nhiều.
+Điểm nổi bật của đề tài là việc xây dựng một hệ thống kết hợp giữa phần cứng và phần mềm, chúng liên kết với nhau tạo nên kết nối hiệu năng cao cho phép mở rộng tiềm năng phát triển. Đặc biệt nhóm đã tìm hiểu và áp dụng các công cụ xác minh thiết kế trong thực tế vào dự án của mình, từ đó tạo căn cứ cho sự chính xác, tính khả thi và tiềm năng ứng dụng thực tế của hệ thống. Điều này thể hiện tinh thần nghiên cứu, sự nỗ lực và sáng tạo kết hợp với việc phân bổ thời gian thực hiện hợp lý giữa hai thành viên. 
+
 Có bất cứ thắc mắc nào xin hãy liên hệ với email: lamcongtruyen.1607@gmail.com
 
 <img width="2048" height="1536" alt="c73f9e12-696f-4d17-9d3c-10ecbd3b3664 - Copy" src="https://github.com/user-attachments/assets/d40ed38d-05f8-43f2-b4d9-a095ffce5d4d" />
